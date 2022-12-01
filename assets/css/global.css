@@ -12,6 +12,10 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 230px;
+    background-position: 110% -60px;
 }
 
 @media screen and (min-width: 992px) {
@@ -20,5 +24,15 @@ body {
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
+        background-size: 25%;
+        background-position: 110% -60px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .content {
+        
+        background-size: 200px;
+        background-position: 150% -40px;
     }
 }
